@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+        
+}
+body{
+    background-color: #ffffff ;
+
+    
+    font-family: Inter, sans-serif;
+    font-weight: bold;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    
+    
+    width: 100%;
+    min-height: 100vh;
+
+
+}
+h1{
+    margin: 0 0 1em 0;
+}
+main{
+    background-color: #17181A ;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    position: relative;
+ 
+    width: 13em;
+    height: 25em;
+
+    border: solid #17181A;
+    border-radius: 2em;
+}
+
+#view{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 90%;
+    height:100%;
+   
+    border: none;
+}
+#result{
+    background-color: #17181A ;
+    color: #F5F5F5;
+
+    padding-top: 1em;
+   
+    overflow: hidden;
+    text-align: right;
+
+    font-size: 1.5em;
+
+    resize: none;
+
+    width: 80%;
+    height:80%;
+}
+#values{
+    background-color: #17181A ;
+    color: #F5F5F5;
+}
+
+input[type="text"]:focus,
+textarea:focus {
+  outline: none;
+}
+
+table{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+
+    padding: 0.1em;
+    margin-bottom: 0.5em;
+}
+
+tr{
+    display: flex;
+    justify-content: space-between;
+
+    width: 90%;
+}
+td{
+    padding: 0 0.3em 0.3em 0;
+}
+
+button{
+    width: 3em;
+    height: 3em;
+
+    background-color: #616161 ;
+
+    border: solid #17181A 0.1px;
+    border-radius: 0.5em;
+    
+}
+.number{
+    color: #29A8FF;
+}
+.operation{
+    color: #C0C0C0;
+    background-color: #29A8FF;
+}
+
+#imgDel{
+   width: 1.5em;
+    height:1.5em;
+}
