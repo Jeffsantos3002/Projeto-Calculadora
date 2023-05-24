@@ -120,6 +120,11 @@ button{
     background-color: #29A8FF;
 }
 
+#delete{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 #imgDel{
    width: 1.5em;
     height:1.5em;
